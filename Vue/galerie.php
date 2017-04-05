@@ -1,21 +1,12 @@
-<!DOCTYPE html>
 
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
 
-<?php /*
+
 <form class ="form-inline" method="POST"action="index.php?page=ajouterGalerie" enctype="multipart/form-data">
     Select image to upload:
     <input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
-	<input type="file" name="fileToUpload" value="Choisissiez un fichier" id="fileToUpload class="form-control""></input>
+	<input type="file" name="fileToUpload" value="Choisissiez un fichier" id="fileToUpload" class="form-control"></input>
 	<input type="submit" value="Upload Image" name="submit" class="btn btn-default">
-</form> */ ?>
+</form>
 
 <div class="container">
   <h2>Modifier une image</h2>
@@ -49,12 +40,12 @@
            <td><input type="text" size="30" maxlength="10" class="form-control"name="titre" value='.$diapo['titre'].'></input></td>
            <td><textarea class="form-control"  rows="3" cols="20"name="description">'.$diapo['description'].'</textarea></td>
             <td><button type="submit"name="modifier"  class="btn btn-default">Modifier</button></td>
-
+            </form>
+            </div>
          <form class ="form-inline" method="POST"action="index.php?page=supprimerGalerie">
            <input type="hidden" name="id" class="form-control" value='.$diapo['image_id'].'></input>
           <td><button type="submit" name="supprimer" class="btn btn-default">Supprimer</button></td>
-        </form>
-        </div>
+
         </form>
       </tr>';
       }

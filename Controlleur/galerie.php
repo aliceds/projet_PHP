@@ -1,7 +1,5 @@
 <?php
- /* Controlleur Galerie
-    
-    AUTEUR : Quentin.G
+ /* Controleur Galerie
  */
 require_once(PATH_MODEL.'diaporama.php');
 require_once(PATH_VUE.'galerie.php');
