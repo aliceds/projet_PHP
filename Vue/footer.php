@@ -1,15 +1,12 @@
 <?php
 /*
-Footer du Site
-Auteur = Quentin
-
-*/
+ * footer de la page
+ */
 ?>
-<!-- Footer -->
 </div>
 </section>
 <footer class="container-fluid bg-4 text-center">
-  <p>  Hola  <a href="http://iutdoua-web.univ-lyon1.fr/~p1501778">Super Lien</a></p> 
+  <p>  Alice Desforges  <a href="http://iut.univ-lyon1.fr">IUT informatique Lyon 1</a></p>
 </footer>
 
 </body>

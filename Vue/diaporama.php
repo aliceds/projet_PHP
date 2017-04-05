@@ -1,12 +1,17 @@
 <?php
+/*
+ * vue diaporama
+ *
+ */
+
+// appel du header et du modèle diaporama
 require_once('header.php');
 require_once(PATH_MODEL.'diaporama.php');
 
-// echo $user;
-// print_r($diapositives);
 $nb_diapo = count($diapositives);
 $i = 1;
 
+// affichage des diapositives
 echo '<div class="slideshow-container">';
 foreach($diapositives as $diapo){
   ?>
@@ -14,10 +19,11 @@ foreach($diapositives as $diapo){
   <div class="mySlides fade">
     <div class="numbertext"> <?php echo $i;?> / <?php echo  $nb_diapo; ?></div>
     <img src="<?php echo PATH_IMAGES.$diapo['nom_fichier'] ; ?>" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text"><h2><?php echo $diapo['titre'];?></h2>
+      <?php echo $diapo['description'];?>
+    </div>
   </div>
   <?php
-  //print_r($diapo);
   $i++;
 }
 ?>

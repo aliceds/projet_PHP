@@ -1,7 +1,10 @@
 <?php
 /*
  * model diaporama
- * récupère le contenu de la bdd
+ * de même que pour le modèle ajouterGalerie : connexion à la bdd puis
+ * définition de la requête (pas de paramètres ici) et exécution de la requête
+ * à l'aide de la fonction queryArray() de bdd; enfin récupération du résultat
+ * dans la variable $diapositives
  */
 
 require_once(PATH_LIB.PATH_BDD.'bdd.php');

@@ -1,6 +1,6 @@
 <?php
  /* Controleur login
-  *
+  * vérifie si l'identifiant et le mot de passe sont corrects
   *
  */
 

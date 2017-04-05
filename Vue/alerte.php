@@ -1,4 +1,8 @@
 <?php
+/*
+ * affichage du message correpondant à une bonne ou une mauvaise connexion
+ *
+ */
 
 if(isset($_SESSION['logged']) && $_SESSION['logged']==true){
 $base::alerteMessage('alert-success', 'Bonne connexion');
@@ -7,5 +11,5 @@ $base::alerteMessage('alert-success', 'Bonne connexion');
 
 $base::alerteMessage('alert-warning', 'Etat Deconnecté');
 }else{
-  
+
 }

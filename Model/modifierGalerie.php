@@ -1,9 +1,11 @@
 <?php
 /*
  * model modifierGalerie
- * modifie les informations dans la base
+ * modifie les informations dans la base à l'aide de la fonction queryBdd()
+ * de bdd, comme pour le modèle ajouterGalerie.
+ * Ici, on modifie juste les informations grâce à UPDATE
  */
- 
+
 require_once(PATH_LIB.PATH_BDD.BDD);
 
 $bdd=new bdd($MYSQL_host, $MYSQL_bdname, $MYSQL_user, $MYSQL_password);

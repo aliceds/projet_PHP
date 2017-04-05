@@ -1,7 +1,5 @@
 <?php
-/* CLASSE base
-    Gestion de la base
-    AUTEUR : Quentin.
+/*
  */
 class base {
     function __construct() {
@@ -13,7 +11,7 @@ class base {
 
     }
 
-    // fonction pour transformer les caracteres speciaux en caractere html 
+    // vérifie si la chaîne de caractère contient des caractères spéciaux ou des espaces
 	public static function isAlpha($string){
 		if(isset($string)&& $string != '' && is_string($string) && !preg_match('/[#|\@]/',$string)){
 			 return htmlspecialchars($string);

@@ -1,7 +1,7 @@
 /*
-Css pour le site
-Auteur Quenton.G
-*/
+ * CSS du site
+ * mise en forme
+ */
   body {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
@@ -9,19 +9,19 @@ Auteur Quenton.G
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
-  .bg-1 { 
+  .bg-1 {
       background-color: #1abc9c; /* vert */
       color: #ffffff;
   }
-  .bg-2 { 
+  .bg-2 {
       background-color: #474e5d; /*  */
       color: #ffffff;
   }
-  .bg-3 { 
+  .bg-3 {
       background-color: #ffffff; /* blanc */
       color: #555555;
   }
-  .bg-4 { 
+  .bg-4 {
       background-color: #2f2f2f; /* gris */
       color: #fff;
   }

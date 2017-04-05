@@ -15,8 +15,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-left">
         <li><a href="#">Accueil</a></li>
-        <li><a href="#">***</a></li>
-        <li><a href="#">***</a></li>
+        <!--<li><a href="#">***</a></li>
+        <li><a href="#">***</a></li>-->
       </ul>
       <ul class ="nav navbar-nav navbar-right">
       <?php

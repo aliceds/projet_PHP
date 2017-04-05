@@ -26,4 +26,6 @@ $params =array(
 
   $bdd->__destruct();
 
+  unlink(PATH_IMAGES.$nomFichier);
+
  ?>

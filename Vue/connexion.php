@@ -1,3 +1,10 @@
+<?php
+/*
+ *
+ *
+ */
+?>
+
 <form class = "nav navbar-form navbar-left" name='monFormulaireLogin' id='monFormulaireLogin' method="POST" action="index.php?page=login">
     <input type="hidden" class="form-control" name = "url" value="<?php echo $page;?>">
         <div class="form-group <?php echo (isset($_GET['message'])&& $_GET['message'] == "identifiant_invalide" ? "has-error has-feedback" : "");?>">

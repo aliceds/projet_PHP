@@ -1,6 +1,12 @@
 <?php
 /*
  * model ajouterGalerie
+ * - connexion à la base de données
+ * - définition des requêtes $query pour insérer une ligne dans les bases image et image_description
+ * - définition des paramètres récupérés dans le controleur ajouterGalerie
+ * - exécution de la requête grâce à la fonction queryBdd du fichier bdd
+ * - récupération du résultat dans la variable $diapositives
+ * - destruction de la connexion
  *
  */
 
